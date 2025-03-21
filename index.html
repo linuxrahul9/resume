@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-container">
+        <div class="background-image"></div>
+        <div class="moonlight"></div>
+        <div class="floating-petals">
+            <div class="petal" style="animation-delay: 0s; left: 10%;"></div>
+            <div class="petal" style="animation-delay: 2s; left: 20%;"></div>
+            <div class="petal" style="animation-delay: 4s; left: 30%;"></div>
+            <div class="petal" style="animation-delay: 6s; left: 40%;"></div>
+            <div class="petal" style="animation-delay: 8s; left: 50%;"></div>
+            <div class="petal" style="animation-delay: 1s; left: 60%;"></div>
+            <div class="petal" style="animation-delay: 3s; left: 70%;"></div>
+            <div class="petal" style="animation-delay: 5s; left: 80%;"></div>
+            <div class="petal" style="animation-delay: 7s; left: 90%;"></div>
+            <div class="petal" style="animation-delay: 9s; left: 95%;"></div>
+        </div>
+        <div class="snowfall">
+            <div class="snowflake" style="animation-duration: 7s; animation-delay: 0s; left: 5%;"></div>
+            <div class="snowflake" style="animation-duration: 8s; animation-delay: 1s; left: 15%;"></div>
+            <div class="snowflake" style="animation-duration: 6s; animation-delay: 2s; left: 25%;"></div>
+            <div class="snowflake" style="animation-duration: 9s; animation-delay: 0.5s; left: 35%;"></div>
+            <div class="snowflake" style="animation-duration: 7s; animation-delay: 1.5s; left: 45%;"></div>
+            <div class="snowflake" style="animation-duration: 8s; animation-delay: 2.5s; left: 55%;"></div>
+            <div class="snowflake" style="animation-duration: 6s; animation-delay: 3s; left: 65%;"></div>
+            <div class="snowflake" style="animation-duration: 9s; animation-delay: 1.8s; left: 75%;"></div>
+            <div class="snowflake" style="animation-duration: 7s; animation-delay: 2.2s; left: 85%;"></div>
+            <div class="snowflake" style="animation-duration: 8s; animation-delay: 3.5s; left: 95%;"></div>
+            <div class="snowflake" style="animation-duration: 6s; animation-delay: 4s; left: 10%;"></div>
+            <div class="snowflake" style="animation-duration: 9s; animation-delay: 2.8s; left: 20%;"></div>
+            <div class="snowflake" style="animation-duration: 7s; animation-delay: 3.2s; left: 30%;"></div>
+            <div class="snowflake" style="animation-duration: 8s; animation-delay: 4.5s; left: 40%;"></div>
+            <div class="snowflake" style="animation-duration: 6s; animation-delay: 5s; left: 50%;"></div>
+        </div>
+    </div>
+
+    <!-- Content Overlay -->
+    <div class="content-overlay">
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-content">x
+                <div class="logo">RESUME</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Rahul Singh</h1>
+                    <p>Web Developer & App Developer</p>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image">
+                        <img src="image/rahul.jpg" alt="RAHUL SINGH">
+                    </div>
+                    <a href="your-resume.pdf" class="download-btn" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Write your brief introduction here. Describe your skills, experience, and what makes you passionate about your work.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Flutter</li>
+                            <li></li>
+                            <!-- Add more skills -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="project1.jpg" alt="Project 1">
+                    </div>
+                    <h3>E-Commerce Website</h3>
+                    <p>A full-stack e-commerce platform with user authentication, product management, and payment integration.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="project2.jpg" alt="Project 2">
+                    </div>
+                    <h3>Task Management App</h3>
+                    <p>A React-based task management application with real-time updates and team collaboration features.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="project3.jpg" alt="Project 3">
+                    </div>
+                    <h3>Weather Dashboard</h3>
+                    <p>A weather application that provides real-time weather data and forecasts using weather API integration.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="project4.jpg" alt="Project 4">
+                    </div>
+                    <h3>Social Media Dashboard</h3>
+                    <p>A social media analytics dashboard with data visualization and reporting features.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="project5.jpg" alt="Project 5">
+                    </div>
+                    <h3>Fitness Tracker</h3>
+                    <p>A fitness tracking application with workout planning, progress monitoring, and achievement system.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements">
+            <h2>Achievements</h2>
+            <div class="achievement-grid">
+                <!-- Achievement Card 1 -->
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Achievement Title</h3>
+                    <p>Description of your achievement and when it was earned.</p>
+                </div>
+                <!-- Add more achievement cards as needed -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>linuxrahul9@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9084904829</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Rudrapur, Tanda Range, Uttarakhand 263153</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="www.linkedin.com/in/rahul-singh-059324357" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/linuxrahul9" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Rahul Singh. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
